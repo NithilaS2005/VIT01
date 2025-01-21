@@ -1,0 +1,77 @@
+body{
+  font-family: Arial,Sans-Serif;
+  margin: 0;
+  padding: 0;
+  background-color: #282828;
+  color: white;
+}
+header{
+  background-color: #f6e1d6;
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
+header h1{
+  font-size: 0.5cm;
+  font-family: Times New Roman;
+}
+header p{
+  font-size: 0.4cm;
+}
+#home{
+  background-color: #dbcdf0;
+  min-height: 10px;
+  padding: 50px;
+  text-align: center;
+  color: black;
+}
+#navigation{
+  padding: 20px;
+  background-color: #b3b4b0;
+  color: black;
+}
+#navigation nav a{
+  text-decoration: none;
+  color:blue;
+}
+#navigation nav a:hover{
+  color:#0056b3;
+  text-decoration: underline;
+}
+.blog{
+  margin:20px;
+  padding: 20px;
+  border:1px solid black;
+  border-radius: 10px;
+  background-color: #c9e4de;
+  color: black;
+}
+
+.blog img{
+  max-width: 100%;
+  width:200px;
+  height:auto;
+  display:block;
+  border-radius: 10px;
+  color:black;
+}
+footer{
+  padding: 20px;
+  background-color:  #f6e1d6;
+  color: black;
+  text-align: center;
+}
+footer form{
+  max-width: 500px;
+  margin: 0 auto;
+}
+footer input{
+  width: 100%;
+  padding:10px;
+  margin: 10px 0;
+  border: 1px solid black;
+  cursor: pointer;
+}
+footer button:hover{
+  background-color: #0056b3;
+}
